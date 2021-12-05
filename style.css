@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: rgb(54, 70, 170);
+    margin-bottom: 50px;
+}
+header img{
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+
+}
+aside{
+    width: 500px;
+    height: 400px;
+    margin: 40px auto;
+    background-color: #4654AE;
+    box-shadow: 3px 5px 5px 0 #4654ae9b;
+
+}
+aside div{
+    display: block;
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    padding-top: 45px;
+
+}
+
+.icon-modify{
+    color: #fff;
+    margin: 6px;
+    padding: 0 5px 0 0;  
+}
+
+input{
+    display: inline-block;
+    width: 88%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #959595;
+    outline: none;
+    transition: all .3s ease-out;
+    border-radius: none;
+}
+.label-float{
+    position: relative;
+    padding: 0;
+    
+}
+label{
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    transform: translateY(18px);
+    color: rgb(109, 109, 109);
+    letter-spacing: 2px;
+}
+input:focus{
+    border-bottom: 2px solid #53BF90;
+    box-shadow: 0 1px 0 0   #58c898;
+    font-size: 1.2rem;
+    
+}
+input:focus + label{
+    font-size: 13px;
+    font-size: 13px;
+    color: #fff;
+    transform: translateY(-10px);
+    transition: all .3s ease-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    font-size: 13px;
+    color: #fff;
+    transform: translateY(-10px);
+    transition: all .3s ease-out;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+input:not(:placeholder-shown) + label{
+    
+}
+input::placeholder{
+    color: transparent;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+a{
+    color: #fff;
+}
+#entrar:hover, #criar-conta:hover{  
+    opacity: 0.85;
+    cursor: pointer;
+}
+#entrar{
+    background-color: #53BF90;
+}
+#criar-conta{
+    background-color: #803D9C;
+    margin-bottom: 300px;
+}
+#back{
+    color: #fff;
+    display: flex;
+}
